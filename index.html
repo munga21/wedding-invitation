@@ -1,0 +1,406 @@
+﻿<!DOCTYPE html>
+<html lang="id" class="notranslate" translate="no">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="color-scheme" content="light only">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="google" content="notranslate">
+        <title>Wedding  - IDA & ANIT</title>
+    <meta name="title" content="Wedding  - IDA & ANIT">
+    <meta name="description" content="Undangan pernikahan digital IDA & ANIT.">
+        <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Wedding  - IDA & ANIT">
+    <meta property="og:description" content="Undangan pernikahan digital IDA & ANIT.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+
+
+                                                
+    <!-- css -->
+    <link rel="stylesheet" href="plugins/animate.css%404.1.1/animate.min-2.css">
+    <link rel="stylesheet" type="text/css" href="%40phosphor-icons/web%402.0.3/src/fill/style-1.css">
+
+    <link rel="preload" as="style" href="build/assets/bootstrap-vCaDZZbr-1.css"><link rel="preload" as="style" href="build/assets/themesv2-DZZF_N8v.css"><link rel="stylesheet" href="build/assets/bootstrap-vCaDZZbr-1.css"><link rel="stylesheet" href="build/assets/themesv2-DZZF_N8v.css">
+        <style>
+        @import url('css2-2');
+@import url('fonts/brigesta/fonts.css');
+@import url('fonts/desyanti/style.css');
+
+:root {
+    --inv-bg: #b8d3b9;
+    --inv-base: #49644e;
+    --inv-accent: #49644e;
+    --inv-border: #49644e;
+    --font-base: "Playfair", serif;
+    --font-accent: "Brigesta", serif;
+    --font-latin: "Desyanti", cursive;
+    --menu-bg: #d5d7a4;
+    --menu-inactive: #49644e;
+    --menu-active: #49644e;
+    --btn-color: #fefefe;
+}
+
+.cover .frame {display:none}
+
+@keyframes wave-left {
+    0% {
+        transform: rotate(-5deg);
+    }
+    100% {
+        transform: rotate(1deg);
+    }
+}
+
+@keyframes wave-right {
+    0% {
+        transform: rotate(5deg);
+    }
+    100% {
+        transform: rotate(-1deg);
+    }
+}
+
+.wave-left img {
+transform-origin: left bottom;
+margin-left: -5%;
+animation: wave-left 4s ease-in-out infinite alternate;
+}
+
+.wave-right img {
+transform-origin: right bottom;
+margin-left: 5%;
+animation: wave-right 4s ease-in-out infinite alternate;
+}
+
+    </style>
+    
+        
+    <style>
+        @import url('fonts/brittany_signature/BrittanySignature-2.css');
+        @import url('fonts/photograph_signature/fonts-2.css');
+        @import url('fonts/heatwood/Heatwood-2.css');
+        .font-brittany-signature {
+            font-family: 'Brittany Signature';
+            line-height: 1.6 !important;
+        }
+        .font-photograph-signature {
+            font-family: 'Photograph Signature';
+            line-height: 1.6 !important;
+        }
+        .font-heatwood {
+            font-family: 'Heatwood';
+            line-height: 3 !important;
+        }
+        #YTMusic {display: block}
+    </style>
+</head>
+
+<body>
+        <main id="app">
+        <div id="modalOverlay" class="modal-backdrop fade" style="display: none;"></div>
+        <!-- Loader -->
+        <div id="loader" class="loader-wrapper"><span class="loader"><span class="loader-inner"></span></span></div>
+                <!-- music -->
+                        <audio id="music" loop="" autoplay="">
+            <source src="musics/jawa-happy-javanese-backsound-mp3cutnet.mp3">
+            </audio>
+                    <!-- end music -->
+                <div id="workspace-container" class="position-fixed h-100 w-100" style="overflow: hidden">
+            <div id="panZoom" class="position-fixed h-100 w-100" style="top: 0; right:0; bottom:0; left:0; transform-origin: 50% 50%;">
+                <div class="h-100 w-100 d-flex align-items-center justify-content-center">
+                    <div class="canvas not-open  ">
+                        <!-- invitation -->
+                        <div id="satuMomen" data-guest="Nama Tamu" data-group="VIP">
+                                                        <div class="satumomen_track">
+                                <ul class="satumomen_list">
+                                                                        <li class="satumomen_slide satumomen_cover">
+                                        <div class="container-mobile cover" style="background-image: url(themes/sage-watercolor/bg.webp); ;">
+                                            <div class="frame">
+    <img class="frame-tl w-100 animate__animated animate__fadeInDown animate__slow" src="themes/sage-watercolor/tm.webp" alt="frame">
+    <img class="frame-br w-100 animate__animated animate__fadeInUp animate__slower" src="themes/sage-watercolor/bm.webp" alt="frame">
+</div>
+                                            <div class="position-relative h-100 w-100 d-flex justify-content-center align-items-center">
+
+    <div>
+        <div style="position:absolute;left:-30px;bottom:-30px;right:-30px;width:calc(100% + 60px);" class="animate__animated aniamte__fadeInUp animate__slower">
+            <img src="themes/sage-watercolor/karakter.webp" class="w-100" alt="bl.webp">
+        </div>
+    <div style="position:absolute;left:-30px;bottom:-30px;right:-30px;width:calc(100% + 60px);" class="animate__animated aniamte__fadeInUp">
+            <img src="themes/sage-watercolor/curve.webp" class="w-100" alt="bl.webp">
+        </div><div style="position:absolute;left:-60px;bottom:-80px;width:60%;" class="wave-left">
+            <img src="themes/sage-watercolor/bl.webp" class="w-100" alt="bl.webp">
+        </div><div style="position:absolute;right:-60px;bottom:-80px;width:60%;" class="wave-right">
+            <img src="themes/sage-watercolor/br.webp" class="w-100" alt="bl.webp">
+        </div></div>
+    
+    <div class="position-relative h-100 w-100 d-flex justify-content-center align-items-center flex-column"><div class="text-center animate__animated animate__zoomIn animate__slower mt-5 mb-auto pt-5" style="line-height:1;"><div class="editable mb-2" style="font-size:14.4px;">THE WEDDING OF</div><div class="color-accent editable font-latin" style="font-size:40px;">Ida &amp; Anit</div></div><div class="w-100 pt-5"> <div class="text-center mx-auto" style="max-width:280px;"><div class="text-center mb-3 py-3 px-2 animate__animated animate__zoomIn animate__slower" style="background-color:rgb(255 255 255 / 67%);border-radius:.5rem;"><div class="editable mb-1 animate__animated animate__fadeInUp animate__slower" style="font-size:14px;">Kepada Yth;<br>Bapak/Ibu/Saudara/i</div> <div id="guestNameSlot" class="editable color-accent h5 font-weight-bold mb-1 animate__animated animate__fadeInUp animate__slower" style="font-size:16px;">Nama Tamu</div></div><button class="btn-open-invitation btn btn-primary rounded-pill mb-4 animate__animated animate__fadeInUp animate__slow" style="font-size:14px;">Open Invitation</button></div></div></div>
+</div>
+                                        </div>
+                                    </li>
+                                                                        <li class="satumomen_slide">
+                                        <div class="container-mobile " style="background-image: url(themes/sage-watercolor/bg.webp); ;">
+                                            <div class="frame">
+    <img class="frame-tl w-100 animate__animated animate__fadeInDown animate__slow" src="themes/sage-watercolor/tm.webp" alt="frame">
+    <img class="frame-br w-100 animate__animated animate__fadeInUp animate__slower" src="themes/sage-watercolor/bm.webp" alt="frame">
+</div>
+                                            <div class="h-100 d-flex flex-column justify-content-center align-items-center" style="padding-bottom:40%;"> <div class="text-center"><div class="editable quotes animate__animated animate__fadeInUp animate__slower" style="font-size:13px;">Di antara tanda-tanda (kebesaran)-Nya ialah<br>bahwa Dia menciptakan pasangan-pasangan<br>untukmu dari (jenis) dirimu sendiri agar<br>kamu merasa tenteram kepadanya.<br>Dia menjadikan di antaramu rasa cinta dan<br>kasih sayang. Sesungguhnya pada yang<br>demikian itu benar-benar terdapat<br>tanda-tanda (kebesaran Allah) bagi<br>kaum yang berpikir.</div><div class="editable mt-3 animate__animated animate__fadeInDown animate__slower" style="font-size:14.4px;">- Ar-Rum 21 -</div></div></div>
+                                        </div>
+                                    </li>
+                                                                        <li class="satumomen_slide">
+                                        <div class="container-mobile " style="background-image: url(themes/sage-watercolor/bg.webp); ;">
+                                            <div class="frame">
+    <img class="frame-tl w-100 animate__animated animate__fadeInDown animate__slow" src="themes/sage-watercolor/tm.webp" alt="frame">
+    <img class="frame-br w-100 animate__animated animate__fadeInUp animate__slower" src="themes/sage-watercolor/bm.webp" alt="frame">
+</div>
+                                            <div class="h-100 d-flex flex-column w-100 justify-content-center align-items-center mx-auto" style="max-width:280px;"><div class="mx-auto mb-3 animate__animated animate__zoomIn animate__slow"><div class="image-editable" style="height:150px;width:150px;overflow:hidden;border:4px solid var(--inv-border);border-radius:100%;"><img src="assets/pria-1734351461.webp" alt="no-image.jpg" style="width: 100%; height: 100%; object-fit: cover;"></div></div><div class="text-center mb-4"><div class="editable h4 mb-2 animate__animated color-accent animate__fadeInUp animate__slower font-accent" style="font-size:24px;">Ida Suparman</div> <div class="editable animate__animated animate__fadeInUp animate__slower" style="font-size:14.4px;">Putra dari pasangan<br>Alm. Bapak Adung<br>Almh. Ibu Ewi</div></div></div>
+                                        </div>
+                                    </li>
+                                                                        <li class="satumomen_slide">
+                                        <div class="container-mobile " style="background-image: url(themes/sage-watercolor/bg.webp); ;">
+                                            <div class="frame">
+    <img class="frame-tl w-100 animate__animated animate__fadeInDown animate__slow" src="themes/sage-watercolor/tm.webp" alt="frame">
+    <img class="frame-br w-100 animate__animated animate__fadeInUp animate__slower" src="themes/sage-watercolor/bm.webp" alt="frame">
+</div>
+                                            <div class="h-100 d-flex flex-column w-100 justify-content-center align-items-center mx-auto" style="padding-bottom:100px;"><div class="mx-auto mb-3 animate__animated animate__zoomIn animate__slow"><div class="image-editable" style="height:150px;width:150px;overflow:hidden;border:4px solid var(--inv-border);border-radius:100%;"><img src="assets/wanita-1734351473.webp" alt="no-image.jpg" style="width: 100%; height: 100%; object-fit: cover;"></div></div><div class="text-center mb-4"><div class="editable h4 mb-2 animate__animated color-accent animate__fadeInUp animate__slower font-accent" style="font-size:24px;">Anita Sri Amalia</div> <div class="editable animate__animated animate__fadeInUp animate__slower" style="font-size:14.4px;">Putri dari pasangan<br>Bapak Asep<br>Ibu Yati</div></div></div>
+                                        </div>
+                                    </li>
+                                                                        <li class="satumomen_slide">
+                                        <div class="container-mobile " style="background-image: url(themes/sage-watercolor/bg.webp); ;">
+                                            <div class="frame">
+    <img class="frame-tl w-100 animate__animated animate__fadeInDown animate__slow" src="themes/sage-watercolor/tm.webp" alt="frame">
+    <img class="frame-br w-100 animate__animated animate__fadeInUp animate__slower" src="themes/sage-watercolor/bm.webp" alt="frame">
+</div>
+                                            <div class="d-flex justify-content-center flex-column align-items-center" style="height:100%;"><div class="animate__animated animate__fadeInDown animate__slower"><div class="image-editable" style="width:158px;height:89px;margin:auto;overflow:hidden;padding-bottom:20px;"><img src="images/galleries/692880-gallery-Z1zR7jklux.webp" alt="27897-gallery-1672939613.png" style="width: 100%; height: 100%; object-fit: contain;"></div></div><div class="text-center animate__animated animate__fadeInDown animate__slower"><div class="editable color-accent font-accent" style="font-size:32px;">Akad Nikah</div> <div class="editable" style="font-size:24px;">Rabu, 02 September 2026</div><div class="editable" style="font-size:16px;">Pukul 10.00 WIB</div></div><div class="mt-2 mb-4 text-center animate__animated animate__zoomIn animate__slower"><div class="editable color-accent font-weight-bold" style="font-size:16px;">Bertempat di</div> <div class="editable" style="font-size:14px;">Dusun Telar, RT. 03 RW 03,<br>Desa Telarsari, Kecamatan Jatisari<br>Kabupaten Karawang</div></div> <a href="https://www.google.com/maps?q=-6.3457995,107.5101935&z=17&hl=id" class="link mx-auto btn btn-primary rounded-pill animate__animated animate__fadeInUp animate__slow" target="_blank" style="gap:8px;max-width:200px;font-size:14px;" rel="noreferrer noopener">Open Maps</a></div>
+                                        </div>
+                                    </li>
+                                                                        <li class="satumomen_slide">
+                                        <div class="container-mobile " style="background-image: url(themes/sage-watercolor/bg.webp); ;">
+                                            <div class="frame">
+    <img class="frame-tl w-100 animate__animated animate__fadeInDown animate__slow" src="themes/sage-watercolor/tm.webp" alt="frame">
+    <img class="frame-br w-100 animate__animated animate__fadeInUp animate__slower" src="themes/sage-watercolor/bm.webp" alt="frame">
+</div>
+                                            <div class="d-flex justify-content-center flex-column align-items-center" style="height:100%;"><div class="animate__animated animate__fadeInDown animate__slower"><div class="image-editable" style="width:158px;height:89px;margin:auto;overflow:hidden;padding-bottom:20px;"><img src="images/galleries/692880-gallery-KOymuvyNvf.webp" alt="27897-gallery-1672939613.png" style="width: 100%; height: 100%; object-fit: contain;"></div></div><div class="text-center animate__animated animate__fadeInDown animate__slower"><div class="editable color-accent font-accent" style="font-size:32px;">Resepsi</div> <div class="editable" style="font-size:24px;">Sabtu, 11 Oktober 2025</div><div class="editable" style="font-size:16px;">Pukul 10.00 WIB</div></div><div class="mt-2 mb-4 text-center animate__animated animate__zoomIn animate__slower"><div class="editable color-accent font-weight-bold" style="font-size:16px;">Masjid Al-Ikhsan Banyuajuh Kamal</div> <div class="editable" style="font-size:14px;">Jl. Trunojoyo No.61, Dajahjarad, <br>Banyuajuh, Kec. Kamal, <br>Kab. Bangkalan, Jawa Timur 69162</div></div> <a href="https://www.google.com/maps/place/?q=-6.558613899999999,106.77036269999999" class="link mx-auto btn btn-primary rounded-pill animate__animated animate__fadeInUp animate__slow" target="_blank" style="gap:8px;max-width:200px;font-size:14px;" rel="noreferrer noopener">Open Maps</a></div>
+                                        </div>
+                                    </li>
+                                                                        <li class="satumomen_slide">
+                                        <div class="container-mobile " style="background-image: url(themes/sage-watercolor/bg.webp); ;">
+                                            <div class="frame">
+    <img class="frame-tl w-100 animate__animated animate__fadeInDown animate__slow" src="themes/sage-watercolor/tm.webp" alt="frame">
+    <img class="frame-br w-100 animate__animated animate__fadeInUp animate__slower" src="themes/sage-watercolor/bm.webp" alt="frame">
+</div>
+                                            <div class="d-flex justify-content-center align-items-center" style="height:100%;">
+    <div style="width:100%;" class="text-center">
+      <div class="font-latin color-accent h4 mb-2 editable animate__animated animate__fadeInDown animate__slower" style="font-size:28.8px;">Tanda Kasih</div>
+      <div class="editable mb-4 animate__animated animate__fadeInDown animate__slower" style="font-size:14.4px;">Terima kasih telah menambah semangat kegembiraan pernikahan kami dengan kehadiran dan hadiah indah Anda.</div>
+<div style="display:flex;gap:8px;">
+    <button class="btn-gift btn btn-block btn-primary rounded-pill animate__animated animate__fadeInUp animate__slow" style="max-width:150px;margin:auto;font-size:14.4px;">? Cashless</button>
+    
+</div><div class="gift-container mt-3 p-4 rounded animate__animated animate__zoomIn animate__slow">
+        
+        <div class="d-flex">
+    <div class="mx-auto">
+
+    <div class="d-flex align-items-center mb-3">
+    
+
+<div style="width:80px;overflow:hidden;" class="image-editable">
+          <img src="images/Logo BCA_Biru.png" style="width: 100%;height: 100%;object-fit: contain;" alt="no-image.jpg">
+        </div>
+<div class="text-left pl-2">
+          <div class="editable account-number font-weight-bold h5 mb-0">4600367345</div>
+          <div class="editable" style="font-size:14.4px;">BCA : Ida Suparman</div>
+        </div>
+</div><div class="d-flex align-items-center">
+    <div style="width:80px;overflow:hidden;" class="image-editable">
+          <img src="images/Logo BCA_Biru.png" style="width: 100%;height: 100%;object-fit: contain;" alt="no-image.jpg">
+        </div>
+
+<div class="text-left pl-2">
+          <div class="editable account-number font-weight-bold h5 mb-0">12345678</div>
+          <div class="editable" style="font-size:14.4px;">BCA : Atas Nama</div>
+        </div>
+</div>
+</div>
+</div>
+      </div>
+    </div>
+  </div>
+                                        </div>
+                                    </li>
+                                                                        <li class="satumomen_slide">
+                                        <div class="container-mobile " style="background-image: url(themes/sage-watercolor/bg.webp); ;">
+                                            <div class="frame">
+    <img class="frame-tl w-100 animate__animated animate__fadeInDown animate__slow" src="themes/sage-watercolor/tm.webp" alt="frame">
+    <img class="frame-br w-100 animate__animated animate__fadeInUp animate__slower" src="themes/sage-watercolor/bm.webp" alt="frame">
+</div>
+                                            <div class="h-100 px-3 d-flex justify-content-center align-items-center"><div class="text-center"><div class="editable font-latin color-accent h4 mb-4 animate__animated animate__fadeInDown animate__slower" style="font-size:28.8px;">Do'a Untuk Pengantin</div> <div class="editable mb-4 animate__animated animate__fadeInUp animate__slower" style="font-size:14.4px;">"Semoga Allah memberkahimu di waktu bahagia dan memberkahimu di waktu susah, dan mengumpulkan kalian berdua dalam kebaikan"<br><br>[HR. Abu Daud]</div></div></div>
+                                        </div>
+                                    </li>
+                                                                        <li class="satumomen_slide">
+                                        <div class="container-mobile " style="background-image: url(themes/sage-watercolor/bg.webp); ;">
+                                            <div class="frame">
+    <img class="frame-tl w-100 animate__animated animate__fadeInDown animate__slow" src="themes/sage-watercolor/tm.webp" alt="frame">
+    <img class="frame-br w-100 animate__animated animate__fadeInUp animate__slower" src="themes/sage-watercolor/bm.webp" alt="frame">
+</div>
+                                            <div class="watermark d-flex flex-column" style="height:100%;">
+        <div class="mt-auto" style="width:100%;"><div class="text-center">
+        
+        <div class="editable mb-2 animate__animated animate__fadeInDown animate__slower" style="font-size:14px;">Merupakan kehormatan &amp; kebahagiaan bagi kami<br>apabila Bapak/Ibu/Saudara/i dapat berhadir<br>dan memberikan doa restu kepada<br>putra &amp; putri kami.</div><div class="editable mb-3 animate__animated animate__fadeInDown animate__slower font-italic" style="font-size:14px;">Wassalamu'alaikum<br>Warahmatullahi Wabarakatuh</div>
+    
+    <div class="text-center d-flex align-items-center justify-content-center animate__animated animate__fadeInDown animate__slow" style="gap:14px;line-height:1.2;"><div><div class="editable" style="text-decoration:underline;font-size:13px;">Keluarga</div> <div class="editable font-weight-bold" style="font-size:13px;">Bapak H. Roni Nahroni<br>dan Ibu Hj. Siti Zainab</div></div> <div><div class="editable" style="text-decoration:underline;font-size:13px;">Keluarga</div> <div class="editable font-weight-bold" style="font-size:13px;">Bapak Ir. Juhrani<br>dan Ibu Juniati, S.Km</div></div></div>
+
+    </div></div>
+    <div class="watermark-placeholder text-center mb-auto mb-5 pb-5"></div></div>
+                                        </div>
+                                    </li>
+                                                                        <!-- Ads for free version -->
+                                                                        <!-- end Ads for free version -->
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="smMenu" class="satumomen_menu">
+                            <ul class="satumomen_menu_list">
+                                                                <li class="satumomen_menu_item">
+                                    <i class="icon ph-fill ph-envelope" style="color:currentColor;"></i>
+                                    <span>Opening</span>
+                                </li>
+                                                                <li class="satumomen_menu_item">
+                                    <i class="icon ph-fill ph-article" style="color:currentColor;"></i>
+                                    <span>Quotes</span>
+                                </li>
+                                                                <li class="satumomen_menu_item">
+                                    <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity=".4" d="M11.776 21.837a36.258 36.258 0 0 1-6.328-4.957 12.668 12.668 0 0 1-3.03-4.805C1.278 8.535 2.603 4.49 6.3 3.288A6.282 6.282 0 0 1 12.007 4.3a6.291 6.291 0 0 1 5.706-1.012c3.697 1.201 5.03 5.247 3.893 8.787a12.67 12.67 0 0 1-3.013 4.805 36.58 36.58 0 0 1-6.328 4.957l-.25.163-.24-.163Z" fill="currentColor"></path><path d="m12.01 22-.234-.163a36.316 36.316 0 0 1-6.337-4.957 12.667 12.667 0 0 1-3.048-4.805c-1.13-3.54.195-7.586 3.892-8.787a6.296 6.296 0 0 1 5.728 1.023V22ZM18.23 10a.719.719 0 0 1-.517-.278.818.818 0 0 1-.167-.592c.022-.702-.378-1.341-.994-1.59-.391-.107-.628-.53-.53-.948.093-.41.477-.666.864-.573a.384.384 0 0 1 .138.052c1.236.476 2.036 1.755 1.973 3.155a.808.808 0 0 1-.23.56.708.708 0 0 1-.537.213Z" fill="currentColor"></path></svg>
+                                    <span>Pria</span>
+                                </li>
+                                                                <li class="satumomen_menu_item">
+                                    <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity=".4" d="M11.776 21.837a36.258 36.258 0 0 1-6.328-4.957 12.668 12.668 0 0 1-3.03-4.805C1.278 8.535 2.603 4.49 6.3 3.288A6.282 6.282 0 0 1 12.007 4.3a6.291 6.291 0 0 1 5.706-1.012c3.697 1.201 5.03 5.247 3.893 8.787a12.67 12.67 0 0 1-3.013 4.805 36.58 36.58 0 0 1-6.328 4.957l-.25.163-.24-.163Z" fill="currentColor"></path><path d="m12.01 22-.234-.163a36.316 36.316 0 0 1-6.337-4.957 12.667 12.667 0 0 1-3.048-4.805c-1.13-3.54.195-7.586 3.892-8.787a6.296 6.296 0 0 1 5.728 1.023V22ZM18.23 10a.719.719 0 0 1-.517-.278.818.818 0 0 1-.167-.592c.022-.702-.378-1.341-.994-1.59-.391-.107-.628-.53-.53-.948.093-.41.477-.666.864-.573a.384.384 0 0 1 .138.052c1.236.476 2.036 1.755 1.973 3.155a.808.808 0 0 1-.23.56.708.708 0 0 1-.537.213Z" fill="currentColor"></path></svg>
+                                    <span>Wanita</span>
+                                </li>
+                                                                <li class="satumomen_menu_item">
+                                    <i class="icon ph-fill ph-clock" style="color:currentColor;"></i>
+                                    <span>Akad</span>
+                                </li>
+                                                                <li class="satumomen_menu_item">
+                                    <i class="icon ph-fill ph-clock" style="color:currentColor;"></i>
+                                    <span>Resepsi</span>
+                                </li>
+                                                                <li class="satumomen_menu_item">
+                                    <i class="icon ph-fill ph-gift" style="color: currentColor;"></i>
+                                    <span>Gift</span>
+                                </li>
+                                                                <li class="satumomen_menu_item">
+                                    <i class="icon ph-fill ph-mosque" style="color:currentColor;"></i>
+                                    <span>Thanks</span>
+                                </li>
+                                                                <!-- Ads for free version -->
+                                                                <!-- end Ads for free version -->
+                            </ul>
+                        </div>
+                         <!-- end invitation -->
+                         <div class="floating-action d-flex align-items-end flex-column">
+                                                                                    <button id="btnMusic" onclick="playMusic()" class="btn btn-float " data-cf-modified-4b7b2c9324ab294a413f2f7b-="">
+                                <svg class="play" xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewbox="0 0 256 256"><path d="M184,152V104a8,8,0,0,1,16,0v48a8,8,0,0,1-16,0Zm40-72a8,8,0,0,0-8,8v80a8,8,0,0,0,16,0V88A8,8,0,0,0,224,80ZM53.92,34.62A8,8,0,1,0,42.08,45.38L73.55,80H32A16,16,0,0,0,16,96v64a16,16,0,0,0,16,16H77.25l69.84,54.31A8,8,0,0,0,160,224V175.09l42.08,46.29a8,8,0,1,0,11.84-10.76Zm92.16,77.59A8,8,0,0,0,160,106.83V32a8,8,0,0,0-12.91-6.31l-39.85,31a8,8,0,0,0-1,11.7Z"></path></svg>
+                                <svg class="pause" xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewbox="0 0 256 256"><path d="M160,32V224a8,8,0,0,1-12.91,6.31L77.25,176H32a16,16,0,0,1-16-16V96A16,16,0,0,1,32,80H77.25l69.84-54.31A8,8,0,0,1,160,32Zm32,64a8,8,0,0,0-8,8v48a8,8,0,0,0,16,0V104A8,8,0,0,0,192,96Zm32-16a8,8,0,0,0-8,8v80a8,8,0,0,0,16,0V88A8,8,0,0,0,224,80Z"></path></svg>
+                            </button>
+                                                        <button id="btnAutoplay" class="btn btn-float ">
+                                <svg class="play" xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewbox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.13,104.13,0,0,0,128,24Zm36.44,110.66-48,32A8.05,8.05,0,0,1,112,168a8,8,0,0,1-8-8V96a8,8,0,0,1,12.44-6.66l48,32a8,8,0,0,1,0,13.32Z"></path></svg>
+                                <svg class="pause" xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewbox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.13,104.13,0,0,0,128,24ZM112,160a8,8,0,0,1-16,0V96a8,8,0,0,1,16,0Zm48,0a8,8,0,0,1-16,0V96a8,8,0,0,1,16,0Z"></path></svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- lightbox -->
+        <div id="lightboxWrapper" class="lightbox-wrapper">
+            <div class="lightbox-list"></div>
+            <a href="#" id="lightboxCloseBtn" class="btn-lightbox">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewbox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 0 1 1.414 0L10 8.586l4.293-4.293a1 1 0 1 1 1.414 1.414L11.414 10l4.293 4.293a1 1 0 0 1-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 0 1-1.414-1.414L8.586 10 4.293 5.707a1 1 0 0 1 0-1.414z" clip-rule="evenodd"></path>
+                </svg>
+            </a>
+            <div class="lightbox-navigation">
+                <a href="#" id="lightboxPrevBtn" class="lightbox-arrow" data-index="0">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m15 19-7-7 7-7"></path>
+                    </svg>
+                </a>
+                <a href="#" id="lightboxNextBtn" class="lightbox-arrow" data-index="0">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5 7 7-7 7"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <!-- end lightbox -->
+        <div id="waterMark" class="mt-5" style="display: none">
+                <div class="wm-music mt-3 text-center animate__animated animate__fadeInUp animate__slower animate__delay-1s" style="font-size: 60%">
+            <div style="opacity: 0.5"><strong>Music:</strong></div>
+            <div style="opacity: 0.5">Jawa - Happy Javanese Backsound</div>
+        </div>
+            </div>
+    </main>
+    <!-- illegal -->
+    <div id="illegal" class="container-mobile" style="background: #ffffff; z-index: 9999; min-height: 100vh; display: flex; justify-content: center; align-items: center; display: none">
+        <div class="modal-body modal-body d-flex flex-column align-items-center">
+            <div class="mb-4 text-center">
+                <svg width="90" height="90" fill="none"><path d="M36 28.024A18.05 18.05 0 0025.022 39M59.999 28.024A18.05 18.05 0 0170.975 39" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><ellipse cx="37.5" cy="43.5" rx="4.5" ry="7.5" fill="currentColor"></ellipse><ellipse cx="58.5" cy="43.5" rx="4.5" ry="7.5" fill="currentColor"></ellipse><path d="M24.673 75.42a9.003 9.003 0 008.879 5.563m-8.88-5.562A8.973 8.973 0 0124 72c0-7.97 9-18 9-18s9 10.03 9 18a9 9 0 01-8.448 8.983m-8.88-5.562C16.919 68.817 12 58.983 12 48c0-19.882 16.118-36 36-36s36 16.118 36 36-16.118 36-36 36a35.877 35.877 0 01-14.448-3.017" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M41.997 71.75A14.94 14.94 0 0148 70.5c2.399 0 4.658.56 6.661 1.556a3 3 0 003.999-4.066 12 12 0 00-10.662-6.49 11.955 11.955 0 00-7.974 3.032c1.11 2.37 1.917 4.876 1.972 7.217z" fill="currentColor"></path></svg>
+                <h2 class="mb-3">Jangan Bikin Aku Sedih</h2>
+                <p>Kamu didapati mencoba menghapus watermark secara ilegal.</p>
+            </div>
+        </div>
+    </div>
+    <!-- end illegal -->
+
+    <!-- not support modal -->
+    <div class="modal fade" id="notSupport" tabindex="-1" role="dialog" aria-labelledby="notSupport" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content" style="border-radius: .8rem;">
+                <div class="modal-body text-center justify-content-center align-items-center">
+                    <h2>Pemberitahuan</h2>
+                    <p>Browser yang kamu gunakan mungkin kurang kompatibel. Beberapa fungsi undangan ini mungkin tidak dapat berjalan dengan baik. Kami merekomendasikan Chrome. Klik tombol dibawah ini untuk mendownload.</p>
+                    <div class="d-flex justify-content-center">
+                        <a href="https://apps.apple.com/id/app/google-chrome/id535886823" class="btn p-1" target="_BLANK">
+                            <img src="images/btn_app_store-2.png" alt="AppStore" height="40px">
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=com.android.chrome&hl=in&gl=US" class="btn p-1" target="_BLANK">
+                            <img src="images/btn_play_store-2.png" alt="PlayStore" height="40px">
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-outline-secondary btn-block rounded-pill" onclick="closeModal(notSupport)" data-cf-modified-4b7b2c9324ab294a413f2f7b-="">Tetap Akses</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- not support modal -->
+
+    <!-- start script -->
+
+    <script src="themes/theme-app-1.js?v=260626"></script>
+
+
+    <script src="themes/themesv2-1.js?v=260626"></script>
+
+    <script>
+        var notSupport = document.getElementById('notSupport');
+        function checkBrowser() { 
+            if(navigator.userAgent.indexOf("UCBrowser") != -1 || navigator.userAgent.indexOf("MiuiBrowser") != -1 || navigator.userAgent.indexOf("OppoBrowser") != -1) {
+                showModal(notSupport);
+                if (loader) {
+                    loader.style.display = "none";
+                }
+            }
+        }
+        checkBrowser()
+    </script>
+        <!-- end script -->
+</body>
+
+</html>
