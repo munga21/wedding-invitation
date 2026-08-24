@@ -389,6 +389,17 @@ animation: wave-right 4s ease-in-out infinite alternate;
     <script src="themes/themesv2-1.js?v=260626"></script>
 
     <script>
+        (function () {
+            var guest = new URLSearchParams(window.location.search).get('to');
+            if (!guest) return;
+            var slot = document.getElementById('guestNameSlot');
+            if (slot) slot.textContent = guest;
+            var root = document.getElementById('satuMomen');
+            if (root) root.dataset.guest = guest;
+        })();
+    </script>
+
+    <script>
         var notSupport = document.getElementById('notSupport');
         function checkBrowser() { 
             if(navigator.userAgent.indexOf("UCBrowser") != -1 || navigator.userAgent.indexOf("MiuiBrowser") != -1 || navigator.userAgent.indexOf("OppoBrowser") != -1) {
